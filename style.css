@@ -36,7 +36,7 @@ body {
 
 .landing-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     animation: fadeIn 0.8s ease-out;
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .footer-logo {
-    height: 40px;
+    height: 60px;
     opacity: 0.7;
     filter: brightness(0) invert(1);
 }
@@ -292,6 +292,13 @@ body {
     .hero-section {
         border-radius: 0 0 24px 24px;
         margin: -20px -20px 30px;
+    }
+
+    .sites-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
     }
     
 
